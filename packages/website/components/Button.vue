@@ -4,7 +4,7 @@
       {{ props.text }}
     </a>
 
-    <template v-if="isCMS">
+    <template v-if="component.isCMS.value">
       <div
         v-show="isShow && !isShowEditor"
         absolute
@@ -38,9 +38,8 @@
 </template>
 
 <script setup lang="ts">
-import { isCMS } from '../composables/useComponent'
-
 const emit = defineEmits(['on-save'])
+const component = useComponent()
 const props = defineProps({
   type: {
     type: String,

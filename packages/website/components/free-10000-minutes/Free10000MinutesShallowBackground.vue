@@ -1,7 +1,7 @@
 <template>
   <div class="free-10000-minutes-shallow-background">
     <h1
-      :contenteditable="isCMS"
+      :contenteditable="component.isCMS.value"
       @blur="(e) => component.handleElementBlur(data, 'title', e)"
       @focus="(e) => component.handleElementFocuse(e)"
     >
@@ -18,7 +18,6 @@
 </template>
 
 <script setup lang="ts">
-import { useComponent, isCMS } from '../../composables/useComponent'
 import { DeepBackgroundProps, DeepBackgroundDefaultProps } from '../../models/Free10000Minutes'
 
 const props = defineProps({

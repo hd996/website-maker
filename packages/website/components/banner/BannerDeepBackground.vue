@@ -1,14 +1,14 @@
 <template>
   <div class="banner-deep-background">
     <h1
-      :contenteditable="isCMS"
+      :contenteditable="component.isCMS.value"
       @blur="(e) => component.handleElementBlur(data, 'title', e)"
       @focus="(e) => component.handleElementFocuse(e)"
     >
       {{ props.data.title }}
     </h1>
     <h3
-      :contenteditable="isCMS"
+      :contenteditable="component.isCMS.value"
       @blur="(e) => component.handleElementBlur(data, 'description', e)"
       @focus="(e) => component.handleElementFocuse(e)"
     >
@@ -20,7 +20,6 @@
 </template>
 
 <script setup lang="ts">
-import { useComponent, isCMS } from '../../composables/useComponent'
 import { DeepBackgroundProps, DeepBackgroundDefaultProps } from '../../models/Banner'
 import { Picture } from '../../models/Model'
 

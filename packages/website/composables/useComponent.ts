@@ -8,10 +8,16 @@ const selectElementText = (element: Element): void => {
   selection.addRange(range)
 }
 
-export const isCMS = location.pathname === '/cms'
+export default function () {
+  const isCMS = ref<boolean>(false)
 
-export const useComponent = () => {
+  onMounted(() => {
+    isCMS.value = location.pathname === '/cms'
+  })
+
   return {
+    isCMS,
+
     handleElementBlur: (data: Object, attr: string, event: any) => {
       if (!isCMS) return
 

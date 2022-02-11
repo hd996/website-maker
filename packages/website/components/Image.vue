@@ -1,5 +1,5 @@
 <template>
-  <picture @click="isCMS && (dialogVisible = true)">
+  <picture @click="component.isCMS.value && (dialogVisible = true)">
     <source :srcset="props.img.Webp" type="image/webp" :class="props.classes" />
     <img :src="props.img.NoWebp" alt="website-maker" :class="props.classes" />
   </picture>
@@ -12,8 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { isCMS } from '../composables/useComponent'
-
+const component = useComponent()
 const emit = defineEmits(['on-success'])
 const props = defineProps({
   img: {
