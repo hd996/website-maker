@@ -12,6 +12,12 @@ Website Maker 是基于 Nuxt3 的低代码建站方案
 - website：网站
 - website-cms：网站配置平台
 
+## 项目演示
+
+<video controls width=100%>
+  <source src="https://web-cdn.agora.io/website-maker/videos/demo-website-maker.mp4" type="video/mp4">
+</video>
+
 ## 开发
 
 ```bash
@@ -33,6 +39,10 @@ $ pnpm start:website
 # 启动 website-cms
 $ pnpm start:website-cms
 ```
+
+## 快速入门 Nuxt3
+
+可以看下我之前写的 [nuxt3-demo](https://github.com/hd996/nuxt3-demo)，在[掘金](https://juejin.cn/post/7031436488260730911)也有简单的介绍
 
 ## 相关链接
 

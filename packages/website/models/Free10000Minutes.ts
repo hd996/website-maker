@@ -15,7 +15,7 @@ export interface ShallowBackgroundProps {
 export const ShallowBackgroundDefaultProps: ShallowBackgroundProps = {
   title: '免费10000分钟-浅色-标题',
   btnText: '按钮文字',
-  btnLink: 'https://www.google.com',
+  btnLink: 'https://github.com/hd996/website-maker',
   btnBlank: true,
 }
 
@@ -41,7 +41,7 @@ export interface DeepBackgroundProps {
 export const DeepBackgroundDefaultProps: DeepBackgroundProps = {
   title: '免费10000分钟-深色-标题',
   btnText: '按钮文字',
-  btnLink: 'https://www.google.com',
+  btnLink: 'https://github.com/hd996/website-maker',
   btnBlank: true,
 }
 
