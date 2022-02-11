@@ -1,0 +1,36 @@
+@import 'element-plus/dist/index.css';
+@import './font.scss';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'PingFang SC Regular', 'PingFang SC', 'Helvetica Neue', Helvetica, 'Microsoft YaHei', '微软雅黑', Arial,
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cms {
+  * {
+    &[contenteditable='true'] {
+      -webkit-user-modify: read-write-plaintext-only;
+      outline: none;
+
+      &:hover,
+      &:focus {
+        outline: 1px solid #e2e2e2;
+      }
+
+      &::selection {
+        background: #fc0;
+      }
+    }
+  }
+}

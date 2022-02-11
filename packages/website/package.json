@@ -1,0 +1,15 @@
+{
+  "name": "@web/website",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@lib/config": "workspace:^1.0.0",
+    "@unocss/nuxt": "^0.12.9",
+    "aos": "^2.3.4",
+    "nuxt3": "^3.0.0-27296423.f3082ca"
+  }
+}

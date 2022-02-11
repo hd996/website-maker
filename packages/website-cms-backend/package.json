@@ -1,0 +1,14 @@
+{
+  "name": "@web/website-cms-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nest start --watch",
+    "build": "nest build",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@lib/config": "workspace:^1.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.4.0"
+  }
+}

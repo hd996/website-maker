@@ -1,0 +1,35 @@
+{
+  "mysql": {
+    "website": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "dialect": "mysql",
+      "database": "website_maker",
+      "username": "root",
+      "password": "",
+      "timezone": "+08:00",
+      "pool": {
+        "max": 20,
+        "min": 1,
+        "idle": 1000
+      }
+    }
+  },
+
+  "jwt": {
+    "website": {
+      "key": "website_maker_token",
+      "secret": "K1iIbQsf3bK48m1GUu1wXUJ1WgKi2QTPyS"
+    }
+  },
+
+  "cookie": {
+    "website": {
+      "maxAge": 2592000000,
+      "secure": false,
+      "domain": "",
+      "httpOnly": true,
+      "path": "/"
+    }
+  }
+}
