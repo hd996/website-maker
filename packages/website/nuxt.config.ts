@@ -27,7 +27,6 @@ export default defineNuxtConfig({
         content: 'no-referrer',
       },
     ],
-    link: [],
     script: [],
   },
 

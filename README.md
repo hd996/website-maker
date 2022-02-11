@@ -5,18 +5,20 @@
   <a href="https://github.com/hd996/website-maker"><img src="https://img.shields.io/github/stars/hd996/website-maker?color=%231890FF&style=flat-square" alt="Stars"></a>
 </p>
 
+## 项目演示
+
+由于没有部署，可以点击下方图片观看视频，查看项目演示，感兴趣的可以按照下方「开发指南」本地试一下
+[![website-maker](https://web-cdn.agora.io/website-maker/imgs/website-maker.png)](https://web-cdn.agora.io/website-maker/videos/demo-website-maker.mp4)
+
 ## 项目介绍
 
 Website Maker 是基于 Nuxt3 的低代码建站方案
 
-- website：网站
-- website-cms：网站配置平台
+- website：即官网，基于 Nuxt3 开发
+- website-cms：官网配置平台，基于 NestJS 和 Vue3 开发
+- 响应式设计：基于 Unocss 的 `shortcuts`，详见 `nuxt.config.ts`
 
-## 项目演示
-
-<https://web-cdn.agora.io/website-maker/videos/demo-website-maker.mp4>
-
-## 开发
+## 开发指南
 
 ```bash
 # 导入 sql
@@ -41,6 +43,12 @@ $ pnpm start:website-cms
 ## 快速入门 Nuxt3
 
 可以看下我之前写的 [nuxt3-demo](https://github.com/hd996/nuxt3-demo)，在[掘金](https://juejin.cn/post/7031436488260730911)也有简单的介绍
+
+## Todo
+
+- 权限
+- 组件
+- 部署
 
 ## 相关链接
 
