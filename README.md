@@ -7,7 +7,7 @@
 
 ## 项目介绍
 
-Website Maker 是基于 Nuxt3 的低代码建站方案。
+Website Maker 是基于 Nuxt3 的低代码建站方案
 
 - website：网站
 - website-cms：网站配置平台
@@ -15,9 +15,13 @@ Website Maker 是基于 Nuxt3 的低代码建站方案。
 ## 开发
 
 ```bash
-# 安装依赖
+# 导入 sql
+$ create database website_maker;
+$ use website_maker;
+$ source init.sql;
 
-# 由于Nuxt3目前不支持pnpm，所以增加--shamefully-hoist选项，创建扁平的node_modules目录结构，官方支持后再改
+# 安装依赖
+# 由于Nuxt3目前不支持pnpm，所以增加--shamefully-hoist选项
 # https://github.com/nuxt/framework/discussions/939
 # https://pnpm.io/zh/cli/install#--shamefully-hoist
 $ pnpm install
