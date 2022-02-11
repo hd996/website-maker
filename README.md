@@ -14,9 +14,7 @@ Website Maker 是基于 Nuxt3 的低代码建站方案
 
 ## 项目演示
 
-<video controls width=100%>
-  <source src="https://web-cdn.agora.io/website-maker/videos/demo-website-maker.mp4" type="video/mp4">
-</video>
+<https://web-cdn.agora.io/website-maker/videos/demo-website-maker.mp4>
 
 ## 开发
 
