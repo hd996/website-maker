@@ -8,7 +8,7 @@
 ## 项目演示
 
 由于没有部署，可以点击下方图片观看视频，查看项目演示，感兴趣的可以按照下方「开发指南」本地试一下
-[![website-maker](https://web-cdn.agora.io/website-maker/imgs/website-maker.png)](https://web-cdn.agora.io/website-maker/videos/demo-website-maker.mp4)
+[![website-maker](https://web-cdn.agora.io/website-maker/imgs/website-maker.png)](https://www.bilibili.com/video/BV1kZ4y1y7wE/)
 
 ## 项目介绍
 
